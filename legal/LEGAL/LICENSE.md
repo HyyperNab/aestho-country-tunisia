@@ -265,5 +265,5 @@ et les présentes pour les éléments juridiques.
 *Le présent modèle est fourni à titre de support. Il doit être complété
 (placeholders), adapté à l'identité de l'éditeur et revu par un avocat avant
 signature. Les références réglementaires citées renvoient à
-`docs/REGULATORY.md` ; tout élément excédant ce qui y est documenté est marqué
+`REGULATORY.md` ; tout élément excédant ce qui y est documenté est marqué
 [À VÉRIFIER PAR UN JURISTE].*

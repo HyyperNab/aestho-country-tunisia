@@ -13,7 +13,7 @@ de ses utilisateurs.
 Elle s'adresse au praticien (médecin esthétique, chirurgien esthétique,
 dermatologue) et, par transparence, à ses patients. Elle complète les
 Conditions Générales d'Utilisation (`CGU.md`), la licence (`LICENSE.md`) et le
-dossier réglementaire (`INPDP.md`, `docs/REGULATORY.md`).
+dossier réglementaire (`INPDP.md`, `REGULATORY.md`).
 
 Le principe fondateur du Logiciel est la **souveraineté locale** : les données
 restent sur l'appareil du praticien. L'éditeur
@@ -27,7 +27,7 @@ des données de ses patients au sens de la loi organique n° 2004-63 du
 27 juillet 2004 (protection des données à caractère personnel). Les formalités
 INPDP lui incombent (déclaration et autorisation préalable pour les données de
 santé — art. 7 et 14 ; décret n° 2007-3004 du 27 novembre 2007 ; délibération
-INPDP n° 4 du 5 septembre 2018 ; voir `docs/REGULATORY.md` §1).
+INPDP n° 4 du 5 septembre 2018 ; voir `REGULATORY.md` §1).
 
 **L'éditeur ne traite rien.** Il n'est ni responsable de traitement, ni
 sous-traitant, ni hébergeur de données de santé. [À VÉRIFIER PAR UN JURISTE —
@@ -107,7 +107,7 @@ Si le praticien choisit de transporter son paquet `.aesthea` chiffré via un
 cloud étranger, ce choix lui appartient. Il constitue un transfert au sens de
 la loi n° 2004-63 (art. 47 : consentement ; art. 51 : protection adéquate ;
 art. 52 : autorisation préalable de l'INPDP obligatoire dans tous les cas) —
-voir `docs/REGULATORY.md` §1 et `INPDP.md` §7. L'option « zéro transfert »
+voir `REGULATORY.md` §1 et `INPDP.md` §7. L'option « zéro transfert »
 (stockage local + clé USB) reste recommandée par défaut. L'éditeur n'est
 jamais partie à ce transport.
 
@@ -137,5 +137,5 @@ Pour toute question relative à la présente politique :
 ---
 
 *Modèle à compléter (placeholders) et à faire relire par un juriste. Les
-références citées renvoient à `docs/REGULATORY.md` ; aucun élément n'excède
+références citées renvoient à `REGULATORY.md` ; aucun élément n'excède
 ce qui y est documenté.*

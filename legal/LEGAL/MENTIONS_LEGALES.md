@@ -57,7 +57,7 @@ L'éditeur ne reçoit jamais de données de santé. Aucune donnée ne quitte
 l'appareil du praticien, sauf si le praticien choisit lui-même un transport
 cloud pour son paquet chiffré `.aesthea` — transport qui relève alors de sa
 responsabilité et des garde-fous de l'art. 52 de la loi organique
-n° 2004-63 (voir `docs/REGULATORY.md` §1 et `INPDP.md`).
+n° 2004-63 (voir `REGULATORY.md` §1 et `INPDP.md`).
 
 ## 4. Protection des données personnelles
 

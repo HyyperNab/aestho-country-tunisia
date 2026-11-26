@@ -5,7 +5,7 @@
 **Le marché tunisien ne publie pas de grille complète.** La recherche du
 25/11/2026 trouve des fourchettes en TND pour une partie des actes (Botox, HA,
 skinbooster, Sculptra, PRP, laser, HIFU, microneedling, cryolipolyse) ; le reste
-reste sur devis. Détail des sources : `docs/PRIX_MARCHE_TN.md`.
+reste sur devis. Détail des sources : `PRIX_MARCHE_TN.md`.
 
 - [drbouricha.com/tarifs-medecine-esthetique-tunisie](https://www.drbouricha.com/tarifs-medecine-esthetique-tunisie/) :
   « aucun tarif n'est fixé à l'avance : chaque prix est déterminé après une
@@ -28,16 +28,15 @@ chaque valeur ; un prix modifié perd le badge. Les coffres existants peuvent
 appliquer les repères aux actes à 0 via un bouton explicite. La tarification
 finale reste une décision du cabinet.
 
-**Source unique (anti-SPOF)** : `data/prix_marche.json`. Avant cette
-correction, les repères étaient dupliqués : 15 côtés noyau
-(`kernel/catalogue.py`), 20 côté PWA (`src/js/00_prelude.js`) — dérive réelle
-mesurée. Désormais le noyau **lit** ce JSON et `scripts/gen_prices.py` en génère
-le miroir `PRIX_MARCHE` dans le préambule JS. `verify.sh` et la CI exécutent
-`gen_prices.py --check` : toute édition manuelle d'un bloc généré échoue.
+**Source unique (anti-SPOF)** : `prices.json`, dans ce pack pays. Le noyau
+**lit** ce fichier via `country_logic` et `scripts/gen_country.py` en génère
+le miroir `COUNTRY.prices` dans `src/js/00_country.js`. `verify.sh` et la CI
+exécutent `gen_country.py --check` : toute édition manuelle d'un bloc généré
+échoue. Aucun prix n'est écrit dans le cœur de l'application.
 
 **Aucune transposition de devise** : aucun prix AED/SAR/EGP/MAD n'a été publié
 de façon vérifiable (Perplexity, 26/11/2026 : `UNVERIFIED`). Les taux réels
-(`docs/DEVISES.md`) servent uniquement à lire un prix TND dans une autre
+(`la documentation devise du cœur`) servent uniquement à lire un prix TND dans une autre
 devise ; convertir un prix tunisien n'en fait pas un prix de marché local.
 
 ## 2. Ce qui fait varier le prix (facteurs du marché, RETRIEVED)

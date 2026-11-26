@@ -1,7 +1,7 @@
 # MÉMOIRE DE QUALIFICATION — questions juridiques ouvertes
 
 À remettre au juriste avec les documents du pack (`LICENSE.md`, `CGU.md`,
-`CONFIDENTIALITE.md`, `INPDP.md`) et `../REGULATORY.md` (référentiel des
+`CONFIDENTIALITE.md`, `INPDP.md`) et `REGULATORY.md` (référentiel des
 articles, RETRIEVED). Chaque question : position documentée + ce qu'il reste à
 trancher. **Ce mémoire ne remplace pas un avis juridique.**
 

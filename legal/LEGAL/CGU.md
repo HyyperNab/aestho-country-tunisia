@@ -112,13 +112,13 @@ récupération.
 
 Le Praticien conserve également ses documents comptables (factures, devis
 convertis, notes d'honoraires) selon les durées légales en vigueur (voir
-`docs/REGULATORY.md` §5 — durée de conservation à confirmer par le comptable).
+`REGULATORY.md` §5 — durée de conservation à confirmer par le comptable).
 
 ### 6.3. Conventions médicales et paramètres
 
 Les délais de suivi post-acte, seuils d'alerte et règles pré-configurés sont
 des **conventions de départ** que le Praticien doit **valider** au regard de la
-RCP/notice de chaque produit et de sa pratique (voir `docs/REGULATORY.md` §2 et
+RCP/notice de chaque produit et de sa pratique (voir `REGULATORY.md` §2 et
 `README.md` — limites honnêtes). Les taux de TVA sont des paramètres que le
 comptable du cabinet tranche acte par acte. Le Praticien demeure seul
 responsable de ces validations.
@@ -133,7 +133,7 @@ postes de rôle et du respect du secret professionnel. Conformément à
 l'art. 63 de la loi organique n° 2004-63, le traitement des données de santé
 ne peut être mis en œuvre que par des médecins ou des personnes soumises au
 secret professionnel — le Praticien s'en assure pour chaque poste qu'il
-provisionne (voir `docs/REGULATORY.md` §1 et §2).
+provisionne (voir `REGULATORY.md` §1 et §2).
 
 ### 6.5. Environnement d'exécution
 
@@ -164,7 +164,7 @@ Il incombe au Praticien, en qualité de responsable du traitement :
    de données de santé, d'obtenir l'**autorisation préalable** exigée par les
    art. 7 et 14 de la loi n° 2004-63, dans les conditions du décret
    n° 2007-3004 du 27 novembre 2007 et de la délibération INPDP n° 4 du
-   5 septembre 2018 (voir `docs/REGULATORY.md` §1) ;
+   5 septembre 2018 (voir `REGULATORY.md` §1) ;
 2. de tenir son registre des traitements ;
 3. de respecter les droits des personnes concernées (information, consentement,
    accès, opposition le cas échéant) conformément à la loi n° 2004-63 ;
@@ -207,7 +207,7 @@ lui incombe :
 
 L'option « zéro transfert » (stockage local sur l'appareil + clé USB, sans
 cloud) dispense de ces formalités de transfert ; elle est recommandée par
-défaut. Voir `docs/REGULATORY.md` §1 et `INPDP.md` §7. [À VÉRIFIER PAR UN
+défaut. Voir `REGULATORY.md` §1 et `INPDP.md` §7. [À VÉRIFIER PAR UN
 JURISTE — la qualification d'un paquet chiffré côté client comme transfert de
 données personnelles relève de l'appréciation de l'INPDP.]
 
@@ -242,7 +242,7 @@ applicables aux présentes.
 
 9.2. Le Praticien est seul responsable : de ses décisions médicales, de ses
 obligations fiscales et comptables (TVA, télé-déclaration TTN — hors périmètre
-du Logiciel, voir `docs/REGULATORY.md` §7), de ses formalités INPDP, de ses
+du Logiciel, voir `REGULATORY.md` §7), de ses formalités INPDP, de ses
 sauvegardes, de la garde de sa phrase secrète et des phrases de rôle, et de
 l'usage conforme du Logiciel par ses collaborateurs.
 
@@ -287,5 +287,5 @@ unilatérale pour un contrat professionnel.]
 
 *Modèle à compléter (placeholders) et à faire relire par un juriste avant
 signature. Les références réglementaires citées renvoient à
-`docs/REGULATORY.md` ; tout élément excédant ce qui y est documenté est marqué
+`REGULATORY.md` ; tout élément excédant ce qui y est documenté est marqué
 [À VÉRIFIER PAR UN JURISTE].*

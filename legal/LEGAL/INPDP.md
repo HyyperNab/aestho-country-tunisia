@@ -11,7 +11,7 @@ par l'éditeur du logiciel AESTHÉA. Il ne constitue pas un conseil juridique et
 ne dispense en rien le praticien de ses déclarations et demandes
 d'autorisation auprès de l'INPDP, dont il est **seul responsable**. Les
 références citées ci-après sont celles documentées dans
-`docs/REGULATORY.md` (§1 et §2) ; aucun article de loi n'est cité au-delà.
+`REGULATORY.md` (§1 et §2) ; aucun article de loi n'est cité au-delà.
 Tout élément incertain est marqué [À VÉRIFIER PAR UN JURISTE].
 
 **Rappel de contexte** : AESTHÉA est un logiciel hors-ligne ; le praticien
@@ -31,7 +31,7 @@ cabinet est soumis à :
    dans les conditions fixées par le **décret n° 2007-3004 du
    27 novembre 2007** et précisées par la **délibération INPDP n° 4 du
    5 septembre 2018** (traitement des données de santé).
-   (Références : `docs/REGULATORY.md` §1.)
+   (Références : `REGULATORY.md` §1.)
 
 3. Respect de l'**art. 63 de la loi n° 2004-63** : le traitement des données
    de santé ne peut être mis en œuvre que par des médecins ou des personnes
@@ -39,7 +39,7 @@ cabinet est soumis à :
    de rôles limite l'accès : le secrétaire n'accède jamais aux champs
    médicaux, le comptable jamais aux éléments cliniques — le praticien reste
    responsable de l'habilitation de ses collaborateurs
-   (`docs/REGULATORY.md` §2).
+   (`REGULATORY.md` §2).
 
 ## 2. Quand l'autorisation est requise
 
@@ -68,7 +68,7 @@ Le praticien complète une fiche par traitement. Modèle :
 | **Catégories de données** | Données de santé (antécédents, allergies, traitements, notes cliniques, protocoles, photos) ; identité et coordonnées ; données financières (factures, devis) |
 | **Personnes concernées** | Patients du cabinet |
 | **Destinataires** | Aucun, sauf collaborateurs habilités soumis au secret professionnel (art. 63, loi n° 2004-63) |
-| **Durée de conservation** | [À DÉFINIR — voir `docs/REGULATORY.md` §5 : conservation comptable en pratique 10 ans, à confirmer par le comptable] |
+| **Durée de conservation** | [À DÉFINIR — voir `REGULATORY.md` §5 : conservation comptable en pratique 10 ans, à confirmer par le comptable] |
 | **Mesures de sécurité** | Chiffrement local AES-256-GCM (clé dérivée de la phrase secrète, jamais transmise) ; accès par phrase secrète ; verrouillage automatique ; RBAC trois rôles ; journal d'audit local hash-chaîné ; sauvegardes par paquet `.aesthea` chiffré (manifeste SHA-256) sur support choisi par le praticien |
 | **Transferts hors de Tunisie** | **Aucun** (option « zéro transfert » : appareil + clé USB). Si transport cloud choisi : voir §7 ci-après |
 | **Déclaration / autorisation INPDP** | [N° / date de la déclaration], [N° / date de l'autorisation] |
@@ -89,7 +89,7 @@ photos/données personnelles datés. Le praticien :
 ## 5. Dossier médical et secret professionnel (rappel)
 
 Conformément au Code de déontologie médicale tunisien (voir
-`docs/REGULATORY.md` §2) : tout document médical porte le nom du médecin
+`REGULATORY.md` §2) : tout document médical porte le nom du médecin
 signataire ; le secret professionnel s'étend au dossier ; le dossier ne se
 communique pas en dehors des cas prévus. Dans AESTHÉA : chaque acte porte le
 champ `medecin`, le consentement par acte porte une `signature`, et la
@@ -116,7 +116,7 @@ paramétrables).
 lui-même de transporter son paquet `.aesthea` chiffré vers un cloud étranger
 (iCloud Drive, Google Drive, kDrive, Proton Drive…) via son propre client
 cloud, ce transport constitue un transfert au sens de la loi n° 2004-63
-(`docs/REGULATORY.md` §1 : le paquet est chiffré côté client, mais le
+(`REGULATORY.md` §1 : le paquet est chiffré côté client, mais le
 praticien peut le déchiffrer ; l'administration peut considérer qu'il s'agit
 de données personnelles [JUDGED — à confirmer]).
 
@@ -134,12 +134,12 @@ de données personnelles [JUDGED — à confirmer]).
 [À VÉRIFIER PAR UN JURISTE — la qualification d'un paquet chiffré transporté
 par le praticien lui-même comme « transfert » au sens de l'art. 52 relève de
 l'appréciation de l'INPDP ; l'interprétation ci-dessus est issue de
-`docs/REGULATORY.md` §1, étiquetée JUDGED.]
+`REGULATORY.md` §1, étiquetée JUDGED.]
 
 ## 8. Références
 
 Toutes les références citées dans le présent document proviennent de
-`docs/REGULATORY.md` (§1 et §2) : loi organique n° 2004-63 du 27 juillet 2004
+`REGULATORY.md` (§1 et §2) : loi organique n° 2004-63 du 27 juillet 2004
 (art. 7, 14, 47, 51, 52, 63) ; décret n° 2007-3004 du 27 novembre 2007 ;
 délibération INPDP n° 4 du 5 septembre 2018 ; Code de déontologie médicale
 tunisien. Aucune autre disposition n'est invoquée. Les textes intégraux et la
