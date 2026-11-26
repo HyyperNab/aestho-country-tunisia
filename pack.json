@@ -1,12 +1,16 @@
 {
   "schema": "aesthea-country/1",
   "code": "TN",
+  "slug": "tunisia",
   "name_fr": "Tunisie",
   "name_en": "Tunisia",
   "status": "verified",
   "verified_at": "2026-11-26",
   "locale_default": "fr",
-  "locales": ["fr", "en"],
+  "locales": [
+    "fr",
+    "en"
+  ],
   "timezone": "Africa/Tunis",
   "currency": "TND",
   "decimal_separator": ",",
