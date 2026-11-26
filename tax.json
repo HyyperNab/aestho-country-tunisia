@@ -1,0 +1,27 @@
+{
+  "system": "TVA",
+  "authority": "Direction générale des impôts (DGI)",
+  "rates": [
+    {"code": "standard", "pct": 19.0, "label_fr": "Taux standard", "label_en": "Standard rate"},
+    {"code": "reduit", "pct": 7.0, "label_fr": "Taux réduit", "label_en": "Reduced rate"},
+    {"code": "exonere", "pct": 0.0, "label_fr": "Exonéré", "label_en": "Exempt"}
+  ],
+  "audit_rates": [0.0, 7.0, 13.0, 19.0],
+  "rounding_decimals": 3,
+  "invoice": {
+    "required_fields": ["numero", "date", "patient", "actes", "total_ht", "total_tva", "total_ttc", "matricule_fiscal"],
+    "optional_fields": ["ttn"],
+    "numbering": "sequential",
+    "retention_years": 10,
+    "legal_mentions_fr": ["Matricule fiscal : {matricule_fiscal}", "Cachet et signature"],
+    "legal_mentions_en": ["Tax ID: {matricule_fiscal}", "Stamp and signature"]
+  },
+  "declaration": {
+    "period": "monthly",
+    "channel": "TTN",
+    "note_fr": "La télé-déclaration TTN reste un acte du cabinet : le logiciel prépare les totaux, il n'envoie rien à l'administration.",
+    "note_en": "TTN e-filing remains an act of the practice: the software prepares totals, it sends nothing to the authority."
+  },
+  "qualified_by": "comptable du cabinet",
+  "source": "legal/REGULATORY.md §4 and §7"
+}

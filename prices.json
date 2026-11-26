@@ -1,0 +1,208 @@
+{
+  "_source": "Repères indicatifs de marché tunisien, médianes de fourchettes publiques. Ni devis ni tarif officiel. Source unique du pack pays ; le noyau et scripts/gen_prices.py la lisent via country_logic.",
+  "_subject": "Prix en TND (DT) — recherche publique des 25/11/2026 et 26/11/2026. Détail et limites : legal/PRIX_MARCHE_TN.md.",
+  "currency": "TND",
+  "verified_at": "2026-11-26",
+  "entries": [
+    {
+      "code": "consultation",
+      "min": 80,
+      "median": 80,
+      "max": 80,
+      "unite": "séance",
+      "source": "praticien — prix indicatif",
+      "date": "2026-11-25",
+      "note": "Prix indicatif à 80 DT — à vérifier et modifier par le praticien."
+    },
+    {
+      "code": "controle_post_acte",
+      "min": 80,
+      "median": 80,
+      "max": 80,
+      "unite": "séance",
+      "source": "praticien — prix indicatif",
+      "date": "2026-11-25",
+      "note": "Prix indicatif à 80 DT — à vérifier et modifier par le praticien."
+    },
+    {
+      "code": "toxine_botulique",
+      "min": 50,
+      "median": 300,
+      "max": 550,
+      "unite": "zone",
+      "source": "anismrabet.com — Botox 50–550 DT",
+      "date": "2026-11-25",
+      "note": "Fourchette publiée très large ; à fixer par zone et par produit."
+    },
+    {
+      "code": "toxine_masseter",
+      "min": 50,
+      "median": 300,
+      "max": 550,
+      "unite": "zone",
+      "source": "anismrabet.com — Botox 50–550 DT",
+      "date": "2026-11-25",
+      "note": "Fourchette publiée très large ; à fixer par zone et par produit."
+    },
+    {
+      "code": "toxine_hydrose",
+      "min": 50,
+      "median": 300,
+      "max": 550,
+      "unite": "zone",
+      "source": "anismrabet.com — Botox 50–550 DT",
+      "date": "2026-11-25",
+      "note": "Fourchette publiée très large ; à fixer par zone et par produit."
+    },
+    {
+      "code": "acide_hyaluronique",
+      "min": 450,
+      "median": 600,
+      "max": 750,
+      "unite": "ml",
+      "source": "medtco.com — HA 450–750 TND/ml",
+      "date": "2026-11-25",
+      "note": "Prix par seringue de 1 ml ; les marques premium sont plus chères."
+    },
+    {
+      "code": "ha_levres",
+      "min": 450,
+      "median": 600,
+      "max": 750,
+      "unite": "ml",
+      "source": "medtco.com — HA 450–750 TND/ml",
+      "date": "2026-11-25",
+      "note": "Prix par seringue de 1 ml ; à ajuster selon le produit."
+    },
+    {
+      "code": "ha_sillons",
+      "min": 450,
+      "median": 600,
+      "max": 750,
+      "unite": "ml",
+      "source": "medtco.com — HA 450–750 TND/ml",
+      "date": "2026-11-25",
+      "note": "Prix par seringue de 1 ml ; à ajuster selon le produit."
+    },
+    {
+      "code": "biorevitalisation",
+      "min": 400,
+      "median": 550,
+      "max": 700,
+      "unite": "séance",
+      "source": "medtco.com — skinbooster 400–700 TND/session",
+      "date": "2026-11-25",
+      "note": "Souvent en cure de 2 à 3 séances."
+    },
+    {
+      "code": "fillers_biostimulants",
+      "min": 1000,
+      "median": 1250,
+      "max": 1500,
+      "unite": "séance",
+      "source": "medtco.com — Sculptra 1000–1500 TND/session",
+      "date": "2026-11-25",
+      "note": "Protocole souvent pluriannuel."
+    },
+    {
+      "code": "prp",
+      "min": 300,
+      "median": 650,
+      "max": 1000,
+      "unite": "séance",
+      "source": "drbouricha.com 500–1000 TND + offre locale 300 TND",
+      "date": "2026-11-25",
+      "note": "Écart selon plateau technique, zone et nombre de séances."
+    },
+    {
+      "code": "laser_epilation",
+      "min": 59,
+      "median": 120,
+      "max": 189,
+      "unite": "zone",
+      "source": "vivencia.tn — 59–189 TND/zone",
+      "date": "2026-11-25",
+      "note": "Prix par zone ; forfaits multi-zones possibles."
+    },
+    {
+      "code": "hifu",
+      "min": 465,
+      "median": 900,
+      "max": 1800,
+      "unite": "zone",
+      "source": "vivencia.tn + organicaclinic.net — 465–1800 TND",
+      "date": "2026-11-25",
+      "note": "Selon zones et protocole."
+    },
+    {
+      "code": "microneedling",
+      "min": 150,
+      "median": 225,
+      "max": 300,
+      "unite": "séance",
+      "source": "tunestetic.com + offres locales — 150–300 TND",
+      "date": "2026-11-25",
+      "note": "Souvent en cure de 3 séances."
+    },
+    {
+      "code": "cryolipolyse",
+      "min": 150,
+      "median": 275,
+      "max": 400,
+      "unite": "zone",
+      "source": "offres locales Tunisie — 150–400 TND/zone",
+      "date": "2026-11-25",
+      "note": "Prix par zone ; forfaits possibles."
+    },
+    {
+      "code": "soin_visage",
+      "min": 50,
+      "median": 85,
+      "max": 120,
+      "unite": "séance",
+      "source": "rezervy.io — nettoyage de peau / soin hydratant 50–120 DT",
+      "date": "2026-08-04",
+      "note": "Fourchette publiée ; à vérifier selon le cabinet et le protocole."
+    },
+    {
+      "code": "peeling_superficiel",
+      "min": 100,
+      "median": 175,
+      "max": 250,
+      "unite": "séance",
+      "source": "rezervy.io — peeling superficiel 100–250 DT",
+      "date": "2026-08-04",
+      "note": "Séance isolée ; les cures sont tarifées au cas par cas."
+    },
+    {
+      "code": "hydradermabrasion",
+      "min": 120,
+      "median": 235,
+      "max": 350,
+      "unite": "séance",
+      "source": "rezervy.io — protocoles à appareil (hydradermabrasion/peeling/RF/LED) 120–350 DT",
+      "date": "2026-08-04",
+      "note": "Fourchette de groupe publiée ; souvent en cure de 4 à 6 séances."
+    },
+    {
+      "code": "radiofrequence",
+      "min": 120,
+      "median": 235,
+      "max": 350,
+      "unite": "séance",
+      "source": "rezervy.io — protocoles à appareil (hydradermabrasion/peeling/RF/LED) 120–350 DT",
+      "date": "2026-08-04",
+      "note": "Fourchette de groupe publiée ; centrelaer.com/tarifs n'expose aucun chiffre vérifiable."
+    },
+    {
+      "code": "led",
+      "min": 120,
+      "median": 235,
+      "max": 350,
+      "unite": "séance",
+      "source": "rezervy.io — protocoles à appareil (hydradermabrasion/peeling/RF/LED) 120–350 DT",
+      "date": "2026-08-04",
+      "note": "Fourchette de groupe publiée ; à vérifier selon le protocole."
+    }
+  ]
+}

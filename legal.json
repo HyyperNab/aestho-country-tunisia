@@ -1,0 +1,39 @@
+{
+  "data_protection": {
+    "authority": "INPDP",
+    "law": "Loi organique n° 2004-63 du 27 juillet 2004",
+    "health_data": {
+      "authorization_required": true,
+      "references": ["art. 7", "art. 8", "art. 14", "art. 63"]
+    },
+    "transfer_abroad": {
+      "authorization_required": true,
+      "references": ["art. 47", "art. 51", "art. 52"]
+    },
+    "sources": ["legal/REGULATORY.md §1"]
+  },
+  "medical_secrecy": {
+    "framework": "Code de déontologie médicale tunisien",
+    "references": ["art. 37", "art. 63"],
+    "sources": ["legal/REGULATORY.md §2 and §5"]
+  },
+  "device_regulation": {
+    "framework": "MDR 2017/745",
+    "in_scope": false,
+    "basis": "MDCG 2019-11",
+    "note_fr": "Logiciel de gestion de cabinet sans conclusion diagnostique ni thérapeutique. La frontière est tenue par ADR-5.",
+    "note_en": "Practice-management software with no diagnostic or therapeutic conclusion. The boundary is held by ADR-5.",
+    "sources": ["legal/REGULATORY.md §3"]
+  },
+  "retention": {
+    "medical_record_years": 10,
+    "accounting_years": 10,
+    "source": "legal/REGULATORY.md §5 (usage, to confirm with the accountant)"
+  },
+  "verification": {
+    "status": "verified",
+    "verified_at": "2026-11-26",
+    "notes_fr": "Références reprises telles quelles de legal/REGULATORY.md. Les textes exacts restant à relire sont listés dans ce document.",
+    "notes_en": "References copied as-is from legal/REGULATORY.md. Texts still to be re-read are listed there."
+  }
+}

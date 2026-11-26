@@ -1,0 +1,25 @@
+{
+  "professional_title_fr": "médecin",
+  "professional_title_en": "physician",
+  "record_retention_years": 10,
+  "consent": {
+    "types": ["acte", "actes", "photos", "donnees_personnelles", "newsletter"],
+    "validity_days": {
+      "acte": null,
+      "actes": 730,
+      "photos": 365,
+      "donnees_personnelles": 365,
+      "newsletter": 365
+    },
+    "requires_signature": ["acte", "photos"],
+    "legal_basis_fr": "Loi 2004-63 art. 63 ; Code de déontologie médicale",
+    "legal_basis_en": "Law 2004-63 art. 63; Tunisian medical code of ethics"
+  },
+  "practice": {
+    "restricted_acts": [],
+    "supervision_required": false,
+    "notes_fr": "Le catalogue clinique reste international. Ce fichier ne porte que les règles de pratique propres au pays ; une liste vide signifie qu'aucune restriction supplémentaire n'est encodée, pas que le cadre légal est absent.",
+    "notes_en": "The clinical catalogue stays international. This file carries only country-specific practice rules; an empty list means no extra restriction is encoded, not that the legal framework is absent."
+  },
+  "sources": ["legal/REGULATORY.md §2 and §5"]
+}
