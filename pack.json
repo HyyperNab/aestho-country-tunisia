@@ -1,26 +1,13 @@
 {
-  "schema": "aesthea-country/1",
+  "schema": "aesthea-country/2",
   "code": "TN",
   "slug": "tunisia",
   "name_fr": "Tunisie",
   "name_en": "Tunisia",
   "status": "verified",
   "verified_at": "2026-11-26",
-  "locale_default": "fr",
-  "locales": [
-    "fr",
-    "en"
-  ],
   "timezone": "Africa/Tunis",
-  "currency": "TND",
-  "decimal_separator": ",",
-  "thousands_separator": " ",
-  "sources": [
-    "legal/REGULATORY.md",
-    "legal/PRIX_MARCHE_TN.md",
-    "ISO 4217 (SIX Group maintenance agency), checked 2026-11-26",
-    "INPDP law 2004-63 references collected in legal/REGULATORY.md"
-  ],
-  "notes_fr": "Pack vérifié pour le marché tunisien. Les textes de loi et les prix sont ancrés dans legal/REGULATORY.md et legal/PRIX_MARCHE_TN.md. Aucune valeur non sourcée.",
-  "notes_en": "Verified pack for the Tunisian market. Legal texts and prices are anchored in legal/REGULATORY.md and legal/PRIX_MARCHE_TN.md. No unsourced value."
+  "accounting_currency": "TND",
+  "notes_fr": "Pack vérifié pour le marché tunisien. Les faits, règles, contenus et preuves sont séparés ; chaque couche est auditable seule.",
+  "notes_en": "Verified pack for the Tunisian market. Facts, rules, content and evidence are separated; each layer is auditable on its own."
 }

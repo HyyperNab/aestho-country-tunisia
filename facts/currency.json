@@ -1,0 +1,27 @@
+{
+  "accounting": "TND",
+  "definition": {
+    "code": "TND",
+    "symbol": "DT",
+    "symbol_en": "TND",
+    "name_fr": "Dinar tunisien",
+    "name_en": "Tunisian dinar",
+    "decimals": 3,
+    "rounding": "half-up",
+    "format_fr": "{value} DT",
+    "format_en": "{value} TND",
+    "source": "iso-4217"
+  },
+  "display": [
+    "TND",
+    "EUR",
+    "USD"
+  ],
+  "settlement": [
+    "TND"
+  ],
+  "conversion": {
+    "policy": "dated_rate_only",
+    "requires_source": true
+  }
+}

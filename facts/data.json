@@ -1,0 +1,22 @@
+{
+  "residency": "local_only",
+  "transfer_abroad": {
+    "authorization_required": true,
+    "references": [
+      "art. 47",
+      "art. 51",
+      "art. 52"
+    ],
+    "source": "content/legal/REGULATORY.md#1"
+  },
+  "retention": {
+    "medical_years": 10,
+    "accounting_years": 10,
+    "source": "content/legal/REGULATORY.md#5"
+  },
+  "extensions": [],
+  "export": {
+    "bundle_format": "aesthea-v1",
+    "encrypted": true
+  }
+}

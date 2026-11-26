@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-11-26",
+  "next_review_at": "2027-05-26",
+  "reviewer": "internal desk review",
+  "role": "not a local legal or tax opinion",
+  "scope": [
+    "currency",
+    "tax",
+    "prices",
+    "legal",
+    "practice",
+    "service",
+    "data"
+  ],
+  "open_questions": [
+    "Confirmer la qualification TVA acte par acte avec un comptable tunisien.",
+    "Relire les textes exacts listés dans content/legal/REGULATORY.md §8.",
+    "Confirmer la durée de conservation avec le comptable.",
+    "Décider si la télé-déclaration TTN reste hors périmètre."
+  ]
+}

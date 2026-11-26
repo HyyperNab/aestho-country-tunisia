@@ -1,0 +1,49 @@
+{
+  "reclamations": {
+    "categories": [
+      {
+        "code": "qualite",
+        "label_fr": "Qualité de la prise en charge",
+        "label_en": "Quality of care",
+        "severity": "haute",
+        "sla_days": 15
+      },
+      {
+        "code": "facturation",
+        "label_fr": "Facturation",
+        "label_en": "Billing",
+        "severity": "moyenne",
+        "sla_days": 30
+      },
+      {
+        "code": "delai",
+        "label_fr": "Délai / rendez-vous",
+        "label_en": "Delay / appointment",
+        "severity": "moyenne",
+        "sla_days": 15
+      },
+      {
+        "code": "accueil",
+        "label_fr": "Accueil / communication",
+        "label_en": "Reception / communication",
+        "severity": "basse",
+        "sla_days": 30
+      },
+      {
+        "code": "donnees",
+        "label_fr": "Données personnelles",
+        "label_en": "Personal data",
+        "severity": "haute",
+        "sla_days": 30
+      }
+    ],
+    "authority": null,
+    "channels": [
+      "telephone",
+      "email",
+      "courrier"
+    ],
+    "default_sla_days": 30,
+    "basis": "practice_policy_not_law"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "default": "fr",
+  "supported": [
+    "fr",
+    "en"
+  ],
+  "fallback": [
+    "fr",
+    "en"
+  ],
+  "date_format": {
+    "fr": "dd/mm/yyyy",
+    "en": "mm/dd/yyyy"
+  },
+  "time_format": {
+    "fr": "24h",
+    "en": "12h"
+  },
+  "number_format": {
+    "fr": {
+      "decimal": ",",
+      "thousands": " "
+    },
+    "en": {
+      "decimal": ".",
+      "thousands": ","
+    }
+  }
+}

@@ -204,5 +204,7 @@
       "date": "2026-08-04",
       "note": "Fourchette de groupe publiée ; à vérifier selon le protocole."
     }
-  ]
+  ],
+  "basis": "indicative_benchmark",
+  "source_doc": "content/legal/PRIX_MARCHE_TN.md"
 }

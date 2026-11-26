@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "iso-4217",
+      "title": "ISO 4217 currency codes",
+      "kind": "standard",
+      "url": "https://www.iso.org/iso-4217-currency-codes.html",
+      "retrieved_at": "2026-11-26"
+    },
+    {
+      "id": "tn-law-2004-63",
+      "title": "Loi organique n° 2004-63",
+      "kind": "law",
+      "url": null,
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "id": "tn-decree-2007-3004",
+      "title": "Décret n° 2007-3004",
+      "kind": "decree",
+      "url": null,
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "id": "tn-medical-ethics",
+      "title": "Code de déontologie médicale",
+      "kind": "code",
+      "url": null,
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "id": "eu-mdr-2017-745",
+      "title": "Règlement (UE) 2017/745",
+      "kind": "regulation",
+      "url": null,
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "id": "tn-price-survey-2026-11",
+      "title": "Relevé de prix publics tunisiens",
+      "kind": "market_survey",
+      "url": null,
+      "retrieved_at": "2026-11-26"
+    },
+    {
+      "id": "exchange-rate-api",
+      "title": "ExchangeRate-API open endpoint",
+      "kind": "fx",
+      "url": "https://open.er-api.com/v6/latest/TND",
+      "retrieved_at": "2026-11-26"
+    },
+    {
+      "id": "theratesapi",
+      "title": "theRatesAPI (ECB + Banca d'Italia)",
+      "kind": "fx",
+      "url": "https://theratesapi.com/api/latest?base=TND",
+      "retrieved_at": "2026-11-26"
+    }
+  ]
+}

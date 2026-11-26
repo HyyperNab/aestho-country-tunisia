@@ -1,0 +1,11 @@
+{
+  "rules_version": "1",
+  "tax_mode": "tax_exclusive",
+  "rounding": "half_up",
+  "invoice_numbering": "sequential_continuous",
+  "invoice_currency_policy": "accounting_only",
+  "currency_conversion": "dated_rate_only",
+  "consent_gate": "required_for_act_and_photos",
+  "price_source": "pack_only",
+  "unknown_rule_policy": "fail_closed"
+}
